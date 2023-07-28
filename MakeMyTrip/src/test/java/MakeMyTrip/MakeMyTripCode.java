@@ -44,13 +44,14 @@ public class MakeMyTripCode {
 	public void selectFromAndTo() throws InterruptedException {
 		Thread.sleep(5000);
 		//Switching in to iframes
-		WebElement iframe = driver.findElement(By.xpath("//*[@title='notification-frame-173062137']"));
+		/*WebElement iframe = driver.findElement(By.xpath("//*[@title='notification-frame-173062137']"));
 		  
 		  driver.switchTo().frame(iframe);
 		 
 		  driver.findElement(By.id("webklipper-publisher-widget-container-notification-close-div")).click();
 		 Thread.sleep(5000);
-		  driver.switchTo().defaultContent();
+		  driver.switchTo().defaultContent();*/
+		Thread.sleep(20);
 		  
 		  //By default Flights option is selected so commenting below statement
 		 // driver.findElement(By.linkText("Flights")).click();

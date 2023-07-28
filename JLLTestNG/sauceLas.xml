@@ -1,0 +1,18 @@
+<suite name="saucelasSanityTest">
+<parameters>
+	<parameter name = "Browser" value = "Edge" />
+	<parameter name = "driverEXE" value = "C:\\Users\\ashok gollapalli\\eclipse-workspace\\cucumberBDD\\JLLTestNG\\msedgedriver.exe" />
+</parameters>
+	<groups>
+		<run>
+			<include name = "p0"/>
+		</run>
+
+	</groups>
+	<test name="basic1Functionalities">
+		<classes>
+			<class name="SauceLab.login" />
+			<class name="SauceLab.cartPage" />
+		</classes>
+	</test>
+</suite>

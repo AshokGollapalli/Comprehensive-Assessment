@@ -1,0 +1,8 @@
+<suite name = "Sanity Testing">
+	<test name = "Release 2023.5 Sanity Test" >
+		<classes>
+			<class name = "PracticeAutomation.PracticeAutomationHomepage"/>
+			
+		</classes>
+	</test>
+</suite>

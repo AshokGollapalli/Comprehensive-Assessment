@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Release 2023.sanity test(failed)">
+    <classes>
+      <class name="com.SDET.eBayAdvancedSearchSanity">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="allCategories"/>
+        </methods>
+      </class> <!-- com.SDET.eBayAdvancedSearchSanity -->
+    </classes>
+  </test> <!-- Release 2023.sanity test(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

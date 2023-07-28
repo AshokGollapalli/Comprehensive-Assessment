@@ -1,0 +1,16 @@
+<suite name="Include and Exclude methods">
+	<test name="testing include and exclude methods ">
+		<classes>
+			<class name="PracticeAutomation.PracticeAutomationHomepage">
+				<methods>
+					<include name="HomePage"/>
+				</methods>
+			</class>
+			<class name="PracticeAutomation.MyAccountPage">
+				<methods>
+					<exclude name="MyAccountPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

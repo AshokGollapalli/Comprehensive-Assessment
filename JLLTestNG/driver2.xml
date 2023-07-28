@@ -1,0 +1,8 @@
+<suite name = "SmokeTestForSauceDemo">
+	<test name = "SauceDemo">
+		<classes>
+			<class name = "SauceLab.cartPage" />
+			<class name = "SauceLab.login" />
+		</classes>	
+	</test>
+</suite>

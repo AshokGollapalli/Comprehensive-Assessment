@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	<suite name="Sanity Test Suite">
+		<test name="Release 2023.sanity test">
+			<classes>
+
+				<!-- <class name="com.SDET.eBayHomeSanity" /> -->
+				<class name="com.SDET.eBayAdvancedSearchSanity" />
+
+			</classes>
+		</test>
+	</suite>

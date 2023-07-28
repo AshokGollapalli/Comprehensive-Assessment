@@ -1,0 +1,20 @@
+<suite name="Include_Exclude_Methods">
+	<test name="test">
+		<classes name="testIncludeExclude">
+
+			<class name="com.SDET.eBayHomeSanity">
+				<methods>
+					<include name="empty_Search_test"></include>
+				</methods>
+			</class>
+			<class name="com.SDET.eBayAdvancedSearchSanity">
+				<methods>
+					<exclude name="allCategories">
+					</exclude>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

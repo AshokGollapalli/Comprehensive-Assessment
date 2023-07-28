@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="selectFromAndTo"/>
-          <include name="MakeMyTripLogo"/>
+          <include name="TearDownMethod"/>
         </methods>
       </class> <!-- MakeMyTrip.MakeMyTripCode -->
     </classes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [saucelasSanityTest]">
+  <parameter name="driverEXE" value="C:\\Users\\ashok gollapalli\\eclipse-workspace\\cucumberBDD\\JLLTestNG\\msedgedriver.exe"/>
+  <parameter name="Browser" value="Edge"/>
+  <test thread-count="5" name="basic1Functionalities(failed)">
+    <groups>
+      <run>
+        <include name="p0"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SauceLab.login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="logIn"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- SauceLab.login -->
+      <class name="SauceLab.cartPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyCartPage"/>
+          <include name="cartPge"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- SauceLab.cartPage -->
+    </classes>
+  </test> <!-- basic1Functionalities(failed) -->
+</suite> <!-- Failed suite [saucelasSanityTest] -->
